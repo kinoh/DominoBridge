@@ -1,0 +1,64 @@
+﻿body
+{
+	color: #ffffff;
+	background-color: #000000;
+}
+
+body, input
+{
+	font-family: 'Segoe UI', sans-serif;
+}
+
+#viewport
+{
+	text-align: center;
+}
+#notification
+{
+	opacity: 0.7;
+	background-color: #000000;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#notification div,input
+{
+	opacity: 1;
+	margin: 0.2em;
+}
+#notification #ranking
+{
+	display: none;
+}
+#ranking th
+{
+	border-bottom: solid 1px #ffffff;
+}
+#ranking th,td
+{
+	text-align: center;
+}
+
+#control
+{
+	display: flex;
+	flex-direction: row;
+	padding-top: 50%;
+	-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+}
+.button
+{
+	color: #000000;
+	font-size: 36pt;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	/* border: 1px solid; */
+	border-radius: 5px;
+	margin: 20px;
+}
